@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "51dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4eaffb1a0134944a2943d542ca014da",
+    "_text_": "App Level",
+    "_top_": {
+        "type": "string",
+        "value": "37dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sa7c590c1fd94736934babe69e15d0b7",
+    "id": "btnAppLevel",
+    "info": null,
+    "isvisible": true,
+    "kuid": "f3dde71cdca34a55a2ca57885e8482ea",
+    "name": "kony.ui.Button",
+    "parent": "frmServicioIdentificacion",
+    "pf": "frmServicioIdentificacion",
+    "wType": "Button",
+    "zindex": 1
+}
