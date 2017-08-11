@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "51dp"
+        "value": "9dp"
     },
     "_margin_": [
         6,
@@ -23,24 +23,24 @@
         0
     ],
     "_skin_": "s4eaffb1a0134944a2943d542ca014da",
-    "_text_": "App Level",
+    "_text_": "Salir",
     "_top_": {
         "type": "string",
-        "value": "70dp"
+        "value": "7dp"
     },
     "_width_": {
         "type": "string",
-        "value": "260dp"
+        "value": "100dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "sa7c590c1fd94736934babe69e15d0b7",
-    "id": "btnAppLevel",
+    "id": "btnLogout",
     "info": null,
     "isvisible": true,
-    "kuid": "f3dde71cdca34a55a2ca57885e8482ea",
+    "kuid": "f958f3f4af14428e828f13ea90de1d5b",
     "name": "kony.ui.Button",
     "parent": "frmServicioIdentificacion",
     "pf": "frmServicioIdentificacion",

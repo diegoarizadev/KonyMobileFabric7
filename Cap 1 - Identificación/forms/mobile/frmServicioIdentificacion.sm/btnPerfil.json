@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "51dp"
+        "value": "270dp"
     },
     "_margin_": [
         6,
@@ -23,24 +23,24 @@
         0
     ],
     "_skin_": "s4eaffb1a0134944a2943d542ca014da",
-    "_text_": "App Level",
+    "_text_": "Perfil",
     "_top_": {
         "type": "string",
-        "value": "70dp"
+        "value": "7dp"
     },
     "_width_": {
         "type": "string",
-        "value": "260dp"
+        "value": "95dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "sa7c590c1fd94736934babe69e15d0b7",
-    "id": "btnAppLevel",
+    "id": "btnPerfil",
     "info": null,
     "isvisible": true,
-    "kuid": "f3dde71cdca34a55a2ca57885e8482ea",
+    "kuid": "cb7ed72785044b42b37ce40a24848e34",
     "name": "kony.ui.Button",
     "parent": "frmServicioIdentificacion",
     "pf": "frmServicioIdentificacion",

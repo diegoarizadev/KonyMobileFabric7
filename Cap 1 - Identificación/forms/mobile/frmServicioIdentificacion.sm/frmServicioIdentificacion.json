@@ -27,7 +27,9 @@
     "canUpdateUI": true,
     "children": [
         "btnAppLevel",
-        "btnUserStorage"
+        "btnUserStorage",
+        "btnLogout",
+        "btnPerfil"
     ],
     "containerweight": 100,
     "currentLocale": "default",
