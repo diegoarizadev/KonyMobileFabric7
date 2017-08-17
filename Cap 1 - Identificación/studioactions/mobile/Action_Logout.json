@@ -1,0 +1,28 @@
+{
+    "AS_Button_e872bcebace046b98bee2358046b5e9c": {
+        "id": "AS_Button_e872bcebace046b98bee2358046b5e9c",
+        "type": "ACTION_SEQUENCE",
+        "name": "Action_Logout",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmServicioIdentificacion",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bf468933fd4147f0a89f6ca42a537004"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___dfab896a21e041bdaa3e404a9669329c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getLogout",
+            "display": "getLogout",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

@@ -12,16 +12,13 @@ var appConfig = {
     middlewareContext: "MyAppMF",
     isMFApp: false,
     eventTypes: ["FormEntry", "ServiceRequest", "Error", "Crash"],
-    url: null,
-    secureurl: null
+    url: "https://csmf.konycloud.com/MyAppMF/MWServlet",
+    secureurl: "https://csmf.konycloud.com/MyAppMF/MWServlet"
 };
 sessionID = "";
 
 function appInit(params) {
     skinsInit();
-    kony.application.setCheckBoxSelectionImageAlignment(constants.CHECKBOX_SELECTION_IMAGE_ALIGNMENT_RIGHT);
-    kony.application.setDefaultTextboxPadding(false);
-    kony.application.setRespectImageSizeForImageWidgetAlignment(true);
     initializeUserWidgets();
     frmHomeGlobals();
     frmServicioIdentificacionGlobals();

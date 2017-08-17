@@ -38,6 +38,7 @@
     "displaytext": true,
     "focusskin": "sa7c590c1fd94736934babe69e15d0b7",
     "id": "btnLogout",
+    "ide_onClick": "AS_Button_e872bcebace046b98bee2358046b5e9c",
     "info": null,
     "isvisible": true,
     "kuid": "f958f3f4af14428e828f13ea90de1d5b",

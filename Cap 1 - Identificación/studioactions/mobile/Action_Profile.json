@@ -1,0 +1,28 @@
+{
+    "AS_Button_ea5c93239c4a4189856b0a9426866a50": {
+        "id": "AS_Button_ea5c93239c4a4189856b0a9426866a50",
+        "type": "ACTION_SEQUENCE",
+        "name": "Action_Profile",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmServicioIdentificacion",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bf468933fd4147f0a89f6ca42a537004"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e8690ff66ed148f3817187532cf04f38",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getProfile",
+            "display": "getProfile",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}

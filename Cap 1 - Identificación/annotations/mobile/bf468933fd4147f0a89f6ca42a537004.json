@@ -1,0 +1,23 @@
+{
+    "active": 1,
+    "comments": {},
+    "requirements": {
+        "f96842acba2a44ef936bae4d7c74e9d6": {
+            "a31b-4263-da29-4d5e-c963-99f5": {
+                "createdById": "2683a470-4ca9-49a5-b339-31bced4be517",
+                "createdBy": "Diego Ariza",
+                "createdByEmail": "diego.ariza@accenture.com",
+                "label": "1",
+                "createdOn": "1502942184067",
+                "lastModifiedTime": 1502942184223,
+                "active": 1,
+                "widgetId": "f96842acba2a44ef936bae4d7c74e9d6",
+                "formId": "bf468933fd4147f0a89f6ca42a537004",
+                "channel": "mobile",
+                "requirementId": "a31b-4263-da29-4d5e-c963-99f5",
+                "body": "<p>Primer comentario de un label</p><p><br></p>"
+            }
+        }
+    },
+    "requirementSeqId": 1
+}

@@ -16,9 +16,7 @@ function addWidgetsfrmServicioIdentificacion() {
         "displayText": true,
         "padding": [0, 0, 0, 0],
         "paddingInPixel": false
-    }, {
-        "showProgressIndicator": true
-    });
+    }, {});
     var btnUserStorage = new kony.ui.Button({
         "focusSkin": "slButtonGlossRed",
         "height": "50dp",
@@ -35,15 +33,14 @@ function addWidgetsfrmServicioIdentificacion() {
         "displayText": true,
         "padding": [0, 0, 0, 0],
         "paddingInPixel": false
-    }, {
-        "showProgressIndicator": true
-    });
+    }, {});
     var btnLogout = new kony.ui.Button({
         "focusSkin": "slButtonGlossRed",
         "height": "50dp",
         "id": "btnLogout",
         "isVisible": true,
         "left": "9dp",
+        "onClick": AS_Button_e872bcebace046b98bee2358046b5e9c,
         "skin": "slButtonGlossBlue",
         "text": "Salir",
         "top": "7dp",
@@ -54,15 +51,14 @@ function addWidgetsfrmServicioIdentificacion() {
         "displayText": true,
         "padding": [0, 0, 0, 0],
         "paddingInPixel": false
-    }, {
-        "showProgressIndicator": true
-    });
+    }, {});
     var btnPerfil = new kony.ui.Button({
         "focusSkin": "slButtonGlossRed",
         "height": "50dp",
         "id": "btnPerfil",
         "isVisible": true,
         "left": "270dp",
+        "onClick": AS_Button_ea5c93239c4a4189856b0a9426866a50,
         "skin": "slButtonGlossBlue",
         "text": "Perfil",
         "top": "7dp",
@@ -73,10 +69,28 @@ function addWidgetsfrmServicioIdentificacion() {
         "displayText": true,
         "padding": [0, 0, 0, 0],
         "paddingInPixel": false
+    }, {});
+    var lblResultado = new kony.ui.Label({
+        "centerX": "50%",
+        "id": "lblResultado",
+        "isVisible": true,
+        "left": 0,
+        "skin": "CopyslLabel0fa094bfd091c4c",
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        },
+        "top": "94%",
+        "width": "90%",
+        "zIndex": 1
     }, {
-        "showProgressIndicator": true
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false
     });
-    frmServicioIdentificacion.add(btnAppLevel, btnUserStorage, btnLogout, btnPerfil);
+    frmServicioIdentificacion.add(btnAppLevel, btnUserStorage, btnLogout, btnPerfil, lblResultado);
 };
 
 function frmServicioIdentificacionGlobals() {
@@ -86,6 +100,7 @@ function frmServicioIdentificacionGlobals() {
         "id": "frmServicioIdentificacion",
         "layoutType": kony.flex.FREE_FORM,
         "needAppMenu": true,
+        "postShow": AS_Form_c387d982c7874181b17e792a453f90a5,
         "skin": "slForm"
     }, {
         "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
@@ -93,24 +108,12 @@ function frmServicioIdentificacionGlobals() {
         "padding": [0, 0, 0, 0],
         "paddingInPixel": false
     }, {
-        "configureExtendBottom": false,
-        "configureExtendTop": false,
-        "configureStatusBarStyle": false,
         "footerOverlap": false,
-        "formTransparencyDuringPostShow": "100",
         "headerOverlap": false,
-        "inputAccessoryViewType": constants.FORM_INPUTACCESSORYVIEW_CANCEL,
-        "needsIndicatorDuringPostShow": false,
+        "menuPosition": constants.FORM_MENU_POSITION_AFTER_APPMENU,
         "retainScrollPosition": false,
         "titleBar": true,
-        "titleBarConfig": {
-            "renderTitleText": true,
-            "prevFormTitle": false,
-            "titleBarLeftSideView": "button",
-            "labelLeftSideView": "Back",
-            "titleBarRightSideView": "button",
-            "labelRightSideView": "Edit"
-        },
-        "titleBarSkin": "slTitleBar"
+        "titleBarSkin": "slTitleBar",
+        "windowSoftInputMode": constants.FORM_ADJUST_PAN
     });
 };

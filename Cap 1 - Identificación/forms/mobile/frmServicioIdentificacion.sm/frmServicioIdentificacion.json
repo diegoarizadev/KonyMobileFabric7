@@ -29,7 +29,8 @@
         "btnAppLevel",
         "btnUserStorage",
         "btnLogout",
-        "btnPerfil"
+        "btnPerfil",
+        "lblResultado"
     ],
     "containerweight": 100,
     "currentLocale": "default",
@@ -40,6 +41,7 @@
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "frmServicioIdentificacion",
+    "ide_postShow": "AS_Form_c387d982c7874181b17e792a453f90a5",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

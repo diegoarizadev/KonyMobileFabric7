@@ -1,0 +1,28 @@
+{
+    "AS_Form_c387d982c7874181b17e792a453f90a5": {
+        "id": "AS_Form_c387d982c7874181b17e792a453f90a5",
+        "type": "ACTION_SEQUENCE",
+        "name": "Action_InitMF",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmServicioIdentificacion",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bf468933fd4147f0a89f6ca42a537004"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b5c540f126ba4b3aa9858c1bedbefc87",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "inicializarMfCliente",
+            "display": "inicializarMfCliente",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}
