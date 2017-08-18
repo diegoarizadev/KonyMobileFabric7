@@ -69,9 +69,6 @@ function getlogin(){//Esta funcion debe retornar el token de la conexion
                      fnLoginError
                     );
 
-    
-    getProfile(); //Obtener el perfil
-    
 
   }else{
 
@@ -86,6 +83,8 @@ function fnLoginExitoso(response){
   */
   //kony.alert("Login Exitoso, bienvenido!, "+JSON.stringify(response));
   frmServicioIdentificacion.lblResultado.text = "Login Exitoso, bienvenido!, "+JSON.stringify(response)+", Token : "+JSON.stringify(authClient);
+  
+  getProfile(); //Obtener el perfil
 }
 function fnLoginError(error){
   /*
@@ -102,21 +101,23 @@ function getProfile(){
   funcion encargada de obtener el perfil de usuario..
   Nota : La funcion nativa no retorna el numero de celular.
   */ 
+     frmServicioIdentificacion.lblResultado.text = "";
+     profile = authClient.getProfile(true, fnPerfilExitoso, fnPerfilError);
 
-  profile = konyMobileFabric.getProfile(true, fnPerfilExitoso, fnPerfilError);
   
 }
 function fnPerfilExitoso(response){
   /*
   funcion encargada de reaccionar si es posible obtener el perfil.
   */
-  kony.alert("Obteniendo perfil Exitoso, "+JSON.stringify(response)+", Perfil = "+profile);
+  
+  frmServicioIdentificacion.lblResultado.text ="Tu Perfil, "+JSON.stringify(response);
 }
 function fnPerfilError(error){
   /*
   funcion encargada de reaccionar si no fue posible obtener el perfil.
   */
-  kony.alert("Obteniendo perfil Fallido!, "+JSON.stringify(error));
+  frmServicioIdentificacion.lblResultado.text = "Obteniendo perfil Fallido!, "+JSON.stringify(error);
 }
 
 
