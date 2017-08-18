@@ -7,3 +7,4 @@ var serviceurl = "https://100005376.auth.konycloud.com/appconfig";
 var statusMF; //Variable para identificar el estado de la conexion con la instancia.
 var tokenSesion; //Variable para identificar el token que retorna la instancia.
 var profile;//Variable encargada de almacenar la informacion del perfil configurado en la instancia.
+var authClient = null; //Variable encargada de almacenar la sesion del usuario.
