@@ -64,7 +64,7 @@ function getlogin(){//Esta funcion debe retornar el token de la conexion
     authClient = konyMobileFabric.getIdentityService("userstore");
     
     authClient.login({"userid":"diego.ariza@accenture.com", //Usuario
-                      "password":"Mp933asd-"},               //Contraseña
+                      "password":"*********"},               //Contraseña
                      fnLoginExitoso,
                      fnLoginError
                     );
